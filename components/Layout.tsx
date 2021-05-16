@@ -47,7 +47,7 @@ const Layout = ({ title, children }) => {
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet"/>
             </Head>
             <Logo className="logo">
-                <Image src="/logo.png" alt="logo" width="225" height="90"/>
+                <Image src="/logo.png" alt="logo" width="225" height="90" priority={true}/>
             </Logo>
             { children }
         </Main>

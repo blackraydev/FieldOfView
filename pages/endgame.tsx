@@ -23,7 +23,7 @@ const Endgame = () => {
         <Layout title="Завершение">
             <Link href="/">
                 <Congrats>
-                    <Image src="/congrats.png" alt="logo" width="350" height="400"/>
+                    <Image src="/congrats.png" alt="logo" width="350" height="400" priority={true}/>
                     <Text>Отличная работа!</Text>
                 </Congrats>
             </Link>
