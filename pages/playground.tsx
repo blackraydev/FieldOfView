@@ -51,10 +51,10 @@ const PlayGround = (props: PlayGroundProps) => {
     let dynamicOffset: number = Number(props.startDistance);
 
     useEffect(() => {
-        let ticks = 1;
+        let ticks: number = 1;
         Wrapper = generateWrapper(dynamicOffset / 2);
 
-        const externalTimer = setTimeout(function internalTimer() {
+        const externalTimer = setTimeout(function internalTimer(): void {
             dynamicOffset += Number(props.distanceIncrease);
             Wrapper = generateWrapper(dynamicOffset / 2);
             
