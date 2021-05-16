@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import { wordList } from "../db/wordList";
-import PlayGroundProps from "../interfaces/PlayGroudProps";
+import PlayGroundProps from "../interfaces/PlayGroundProps";
 
 const Output = styled.div`
     display: flex;
