@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.5",
+    "babel-plugin-transform-define": "^2.0.0",
     "typescript": "^4.2.4"
   }
 }
