@@ -25,12 +25,11 @@ const Title = styled.h1`
 
 const Boxes = styled.div`
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin-top: 12.5%;
 `
 
